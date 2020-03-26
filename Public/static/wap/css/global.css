@@ -1,0 +1,84 @@
+@charset "utf-8";
+/*------------------------------- 网页背景色 ----------------------------------*/
+#wrapper{width:100%;height:100%; font-size:14px; font-family: "Microsoft Yahei","微软雅黑","宋体",Arial, sans-serif; background:#fff; }
+/*  全局  */
+#header,#banner,#nav,#container,#footer { width:94%; padding:0px; margin:0px auto; background-color:#fff;}
+
+#header { padding:10px;margin:0px;}
+#header h1 { background:url(../images/logo.png) no-repeat left center; background-size:contain; width:100%; height:87px;}
+
+.dj { background:url(../images/q.jpg) no-repeat;background-size:contain; display:inline-block;  color:#fff; text-align:center; }
+.dj:hover { background:url(../images/q2.jpg) no-repeat; color:#fff;}
+
+#banner { background:url(../images/w.jpg) no-repeat center top; background-size:contain;}
+
+.main1 { color:#a14637; font-size:1rem; padding:0.2rem 0px; line-height:35px; background-color:#ffeff2; border:1px dashed #a14637; margin:0.5rem 10px;}
+
+.more { background:url(../images/e.jpg) no-repeat center top;background-size:contain; color:#fff; display:inline-block;width:100%; margin:5px; }
+.more:hover { background:url(../images/e2.jpg) no-repeat center top;color:#fff;}
+
+.main2 { color:#5b5b5b; margin-top:30px; margin:30px 10px 5px 10px;}
+
+.main3 { background:url(../images/r.gif) no-repeat center top;background-size:contain; margin:50px 0px; }
+
+@media (max-width:480px){
+#header h1 { height:50px; width:128px;}
+.dj { height:43px; line-height:43px;width:125px; font-size:14px;  }
+.fz20 { font-size:15px !important;}
+#banner { height:360px; }
+.more {height:60px; line-height:60px; font-size:30px;}
+.main2 { font-size:0.9rem; }
+.main3 { height:30px;}
+}
+
+@media (min-width:767px){
+#header h1 { height:87px;width:188px;}
+.dj { height:65px; width:100%; line-height:65px;width:192px; margin-right:10px;  }
+.fz20 { font-size:28px !important;}
+#banner {  height:750px; }
+.more {height:89px; line-height:89px; font-size:30px;}
+.main2 { font-size:30px; line-height:50px; }
+.main3 { height:59px;}
+}
+
+
+@media (min-width:992px){
+#header h1 { height:87px;}
+.dj { height:65px; width:100%; line-height:65px; width:192px;margin-right:10px; }
+#banner { height:750px;}
+.more {height:89px; line-height:89px; font-size:30px;}
+.main2 { font-size:28px; line-height:40px; }
+.main3 { height:59px;}
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

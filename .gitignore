@@ -1,0 +1,11 @@
+*.log
+#Public
+Public/inc/*
+Public/Upload/*
+Application/Runtime/*
+Public/Upload/*
+.idea/*
+Application/Common/Conf/*
+Application/Common/Conf/config.php
+/.user.ini
+/tbk/*

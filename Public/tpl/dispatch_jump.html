@@ -1,0 +1,65 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+     <meta name="viewport" content="width=device-width,initial-scale=1,minimum-scale=1,maximum-scale=1,user-scalable=no" />
+    <title>跳转提示</title>
+    <script src="__JS__/resize.js" type="text/javascript" charset="utf-8"></script>
+    <style type="text/css">
+    *{ padding: 0; margin: 0; }
+    body{ background: #fff; font-family: '微软雅黑'; color: #333; font-size: 16px; }
+
+    .message{width: 5rem;margin:auto;margin-top:4rem;color: #666666;border:2px solid #BEBEC0;padding:0.2rem 0;background:#323336;opacity:0.9;border-radius:0.1rem;}
+    .content{width: 100%;}
+    .success ,.error{text-align: center;margin-top: 0.3rem;color: #fff;}
+    .success i,.error i{margin-right: 0.1rem;vertical-align: middle;}
+    .success .is{background: url(/Public/static/images/success.png) no-repeat;width: 0.5rem;height: 0.5rem;display: inline-block;background-size: 100%;}
+    .error .ie{background:url(/Public/static/images/error.png) no-repeat;width: 0.5rem;height: 0.5rem;display: inline-block;background-size: 100%;}
+    .jump{text-align: center;margin-top: 0.1rem;}
+    .jump a{color: #3fa9f5;font-size: 0.25rem;text-decoration: none;color:#fff}
+     .jump span{color:#fff;font-size:0.23rem}
+    @media only screen and (min-width: 900px) and (max-width:1920px) {
+           .message{margin-top:200px;}
+    	 .head,.jump a{font-size:16px ;}
+    	  .jump span{font-size:16px;}
+    	 body{font-size:20px ;}
+    }
+    </style>
+</head>
+<body>
+<div class="message">
+    <div class="content">
+    <?php if(isset($message)) {?>
+    <p class="success">
+    	<i class="is"></i><?php echo($message); ?>
+    </p>
+    <?php }else{?>
+    <p class="error">
+    	<i class="ie"></i><?php echo($error); ?>
+    </p>
+    <?php }?>
+    <p class="detail"></p>
+    <p class="jump">
+    <a id="href" href="<?php echo($jumpUrl); ?>">如果没有自动跳转，请点击这里</a>
+    <br />
+    <span></>等待时间： <b id="wait"><?php echo($waitSecond); ?></b></span>
+    </p>
+    </div>
+</div>
+    <script type="text/javascript">
+    (function()
+    {
+    	var wait = document.getElementById('wait'),href = document.getElementById('href').href;
+    	var interval = setInterval(function(){
+    		var time = --wait.innerHTML;
+    		if(time <= 0) 
+    		{
+    			//top.location.href = href;
+    			location.href = href;
+    			clearInterval(interval);
+    		};
+    	}, 1000);
+    })();
+    </script>
+</body>
+</html>

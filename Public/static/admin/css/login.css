@@ -1,0 +1,59 @@
+body,h1,h2,h3,h4,h5,h6,hr,p,blockquote,dl,dt,dd,ul,ol,li,pre,form,fieldset,legend,button,input,textarea,select,th,td{margin:0;padding:0;}
+body,button,input,select,textarea{ font-size:.28em; font-family:Microsoft Yahei,tahoma,arial,宋体; color:#3e3a39;}
+h1,h2,h3,h4,h5,h6{font-size:100%;}
+address,cite,dfn,em,var,i,s{font-style:normal;}
+body{line-height: 1;} 
+ul,ol,li,dd,dl{list-style:none;}
+img{border:0;}
+a{color: #4d4d4d;text-decoration: none;}
+a:hover{text-decoration: none;}
+.clearfix:after{ clear:both;content:" ";display:block;font-size:0;height:0;visibility:hidden;}
+.clearfix{display: inline-block;}
+.clearfix{display: block;}
+.fl,.lefter{float:left;}
+.fr,.righter{float:right;}
+.btnsub{display:iinline-block;height:47px;line-height:47px;background: #1b578f; text-align: center;font-size: 18px;color:#fff;border: none;cursor: pointer;}
+.iptxt{width:306px;height:24px;padding:10px 5px;border:1px solid #dcdcdc;}
+.iptxt2{width:169px;}
+.ch{margin:0 8px 0 0;vertical-align: middle;}
+/*loginBox*/
+.login{background: url(../images/bg.jpg) top center no-repeat;background-size: cover;}
+.loginBox{width:534px;padding:30px 14px 72px;color: #4d4d4d;font-size:14px;margin:100px auto 0;background: #fff;-webkit-box-shadow: 0 0 29px 8px rgba(0,0,0,.1);-moz-box-shadow: 0 0 29px 8px rgba(0,0,0,.1);-o-box-shadow: 0 0 29px 8px rgba(0,0,0,.1);box-shadow: 0 0 29px 8px rgba(0,0,0,.1);}
+.loginBox .lbhd{text-align: center;padding-bottom: 35px;border-bottom: 1px solid #dcdcdc;}
+.loginBox .lbbd{padding:0 61px;}
+.lbbd h4{font-size: 24px;letter-spacing: 2px;font-weight: normal;margin:30px 0 28px 0;text-align: center;}
+.lbbd li{margin-bottom: 30px;position: relative;}
+.lbbd .lefter{line-height: 47px;font-size: 18px;margin:0 20px 0 8px;}
+.lbbd .zcode{position: absolute;left:300px;top:0;}
+.lbbd .btnsub{width: 100%;}
+.lbbd .iptxt{font-size: 14px;color: #4d4d4d;}
+.lbbd .forget{position: relative;top:2px;}
+
+/*backContainer*/
+.icon{display:block;background: url(../images/icon.png) 0 0 no-repeat;width: 38px;height: 37px;margin: 20px auto 15px;}
+.ic1{background-position: 0 -43px;width: 38px;height: 39px;}
+.ic2{background-position: 0 -86px;width: 37px;height: 39px;}
+.ic3{background-position: 0 -132px;width: 38px;height: 36px;}
+.ic4{background-position: 0 -173px;width: 44px;height: 42px;}
+.red{color: #ff0000;}
+.col1{color: #000;}
+.backContainer{font-size: 14px;width: 1204px;margin: 0 auto;}
+.backContainer .selink{display: block;margin: 70px 0 40px;text-align: center;}
+.backContainer .selink a{display:block;float:left;border-radius:6px;margin-right:12px;width:231px;height:100px;padding-bottom:25px;color: #fff;font-size: 24px;}
+.selink .color1{background: #f76164;}
+.selink .color2{background: #ffb400;}
+.selink .color3{background: #25c3f1;}
+.selink .color4{background: #9087d6;}
+.selink .color5{background: #8cd25d;}
+.backContainer .selink a.color5{margin-right: 0;}
+.backContainer .contactBox{border: 1px solid #dfdfdf;border-radius: 6px;padding: 0 13px;}
+.contactBox h3{font-size: 18px;font-weight:normal;color: #000;border-bottom: 1px solid #dfdfdf;padding-left: 33px;line-height: 35px;}
+.contactBox .cbbd{padding:13px 0;}
+.cbbd .righter{border-left: 1px solid #dfdfdf;width: 1036px;}
+.cbbd .cblist{padding:4px 0 20px 20px;color: #828181;}
+.cblist dt,.cblist dd{float: left;}
+.cblist dt{padding-right: 40px;text-align: right;width: 56px;}
+.cblist dd{padding-right:9px;}
+.cblist dd.last{padding-right: 0;}
+.cbbd span.splogo{display: block;background: url(../images/logo2.png) no-repeat;width: 113px;height: 83px;margin-top:80px;}
+

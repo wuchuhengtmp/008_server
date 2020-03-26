@@ -1,0 +1,140 @@
+@charset "utf-8";
+/*--------------------- 通用样式 ---------------------*/
+html,body{width:100%;height:auto;}
+*{margin:0;padding:0;}
+img { border: 0 none; vertical-align: top; }
+ol, ul {list-style: none;}
+i, em, cite { font-style: normal; }
+button{ cursor:pointer;}
+table,table td { border-collapse:collapse; border-spacing: 0;}
+.mm table{  border-collapse:collapse;}
+.mm table td{ border:#000 solid 1px;  }
+html, div, span, object, iframe,h1, h2, h3, h4,  h6, p, blockquote, pre,abbr, address, cite, code,del, dfn, em, img, ins, kbd, q, samp,small, strong, sub, sup, var,b, i,dl, dt, dd, ol, ul, li,fieldset, form, label, legend,table, caption, tbody, tfoot, thead, tr, th, td,article, aside, canvas, details, figcaption, figure, footer, header, hgroup, menu, nav, section, summary,time, mark, audio, video 
+{ margin:0px;padding:0px;border:0px;outline:0px;font-size:100%;vertical-align: baseline;background:transparent;list-style-type:none;font-weight: inherit;font-style: inherit;font-family: inherit;}
+/*--------------------- 超链接效果 ---------------------*/
+a{text-decoration:none;outline:none; color:#666;}
+a:hover { text-decoration:none; color:#000;}
+/*--------------------- 文本对齐方式 ---------------------*/
+.text_c{text-align:center;}
+.text_r{text-align:right;}
+.text_l{text-align:left;}
+/*--------------------- 字体样式 ---------------------*/
+.fw-b{font-weight:bold;}
+.fw-n{ font-weight:normal;}
+.fs-i{font-style:italic;}
+/*--------------------- 行高定义 ---------------------*/
+.LH25{ line-height:25px;}
+.LH30{ line-height:30px;}
+.LH35{ line-height:35px;}
+/*--------------------- 定位关系 ---------------------*/
+.absolute{position:absolute;}
+.relative{position:relative;}
+/*--------------------- 隐藏元素 ---------------------*/
+.o-hidden{overflow:hidden;}
+.hidden{display: none;}
+.block {display:block;}
+/*--------------------- 浮动和清除浮动 ---------------------*/
+.float_l{float:left;}
+.float_r{float:right;}
+
+.clear{clear:both; height:0;}
+.clearfix:after{content:".";display:block;height:0;clear:both;visibility:hidden;}
+.clearfix{zoom:1;}
+.fixed:after { content: "."; display: block; clear: both; height: 0; visibility: hidden; }
+.fixed { display: block; min-height: 1%; }
+/* Hides from IE-mac \*/
+* html .clearfix {height: 1%;}
+/*显示和隐藏*/
+.o-hidden{overflow:hidden}.hidden,.hide{display:none}.show{display:block}.visible{display:block}
+.visible-xs{display:none!important}
+.visible-sm{display:none!important}
+@media (max-width:767px){.visible-xs{display:block!important}}
+@media (max-width:767px){.hidden-xs{display:none!important}}
+@media (max-width:992px){.visible-sm{display:block!important}}
+@media (max-width:992px){.hidden-sm{display:none!important}}
+
+/*--------------------- 距离样式 ---------------------*/
+.mar_t10 { margin-top:10px;}
+.mar_t20 { margin-top:20px;}
+.mar_t30 { margin-top:30px; }
+
+.mar_b10 { margin-bottom:10px;}
+.mar_b20 { margin-bottom:20px;}
+.mar_b30 { margin-bottom:30px;}
+
+.mar_l10 { margin-left:10px;}
+.mar_l20 { margin-left:20px;}
+.mar_l30 { margin-left:30px;}
+
+.mar_r10 { margin-right:10px;}
+.mar_r20 { margin-right:20px;}
+.mar_r30 { margin-right:30px;}
+
+.padd_10{ padding:10px;}
+.padd_20{ padding:20px;}
+/*--------------------- 边框样式 ---------------------*/
+.border{ border:#ddd solid 1px;}
+.bor_t{ border-top:#ddd solid 1px;}
+.bor_b{ border-bottom:#ddd solid 1px;}
+.bor_l{ border-left:#ddd solid 1px;}
+.bor_r{ border-right:#ddd solid 1px;}
+.NoBorder { border:0 none; }
+/*--------------------- 宽度高度 ---------------------*/
+.wid1000{ width:1000px; padding:0px; margin:0px auto;}
+.wid1200{ width:1200px; padding:0px; margin:0px auto;}
+/*--------------------- 字体颜色 ---------------------*/
+.red{ color:#F00;}
+.blue{ color:#00F;}
+.black {color:#000;}
+.gray{ color:#CCC;}
+.green{ color:#060;}
+.white{color:#fff;}
+.yellow{ color:#FF0;}
+.orange{ color:#C30;}
+.bgw { background-color:#fff;}
+/*--------------------- 字体大小 ---------------------*/
+h1 {font-size:30px;}
+h2 {font-size:18px;}
+h3 {font-size:16px;}
+h4 {font-size:14px;}
+h5 {font-size:12px;}
+h6 {font-size:12px;}
+.fz12 { font-size:12px;}
+.fz14 { font-size:14px;}
+.fz16 { font-size:16px;}
+.fz18 { font-size:18px;}
+.fz20 { font-size:20px;}
+
+
+/*显示和隐藏*/
+.o-hidden{overflow:hidden}.hidden,.hide{display:none}.show{display:block}.visible{display:block}
+.visible-xs{display:none!important}
+.visible-sm{display:none!important}
+@media (max-width:767px){.visible-xs{display:block!important}}
+@media (max-width:767px){.hidden-xs{display:none!important}}
+@media (max-width:992px){.visible-sm{display:block!important}}
+@media (max-width:992px){.hidden-sm{display:none!important}}
+/*向下三角*/
+.caret{display:inline-block;width:0;height:0;margin-left:2px;vertical-align:middle;border-top:4px dashed;border-top:4px solid \9;border-right:4px solid transparent;border-left:4px solid transparent; background:none;}
+
+
+
+#wrapper{width:100%;height:100%;font: 16px "Microsoft Yahei","微软雅黑","宋体",Arial, sans-serif; background:#fff;}
+
+
+.container{margin-right:auto;margin-left:auto;}@media (min-width:768px){.container{width:750px;padding-right:15px;}}@media (min-width:992px){.container{width:1000px;}}@media (min-width:1200px){.container{width:1423px; padding-left:15px; padding-right:15px;}}@media (max-width:768px){.container {}}.container-fluid{margin-right:auto;margin-left:auto;}@media (max-width:992px){.container-fluid{padding-left:15px;padding-right:15px}}.row{margin-left:-15px;margin-right:-15px}.col-lg-1,.col-lg-10,.col-lg-11,.col-lg-12,.col-lg-2,.col-lg-3,.col-lg-4,.col-lg-5,.col-lg-6,.col-lg-7,.col-lg-8,.col-lg-9,.col-md-1,.col-md-10,.col-md-11,.col-md-12,.col-md-2,.col-md-3,.col-md-4,.col-md-5,.col-md-6,.col-md-7,.col-md-8,.col-md-9,.col-sm-1,.col-sm-10,.col-sm-11,.col-sm-12,.col-sm-2,.col-sm-3,.col-sm-4,.col-sm-5,.col-sm-6,.col-sm-7,.col-sm-8,.col-sm-9,.col-xs-1,.col-xs-10,.col-xs-11,.col-xs-12,.col-xs-2,.col-xs-3,.col-xs-4,.col-xs-5,.col-xs-6,.col-xs-7,.col-xs-8,.col-xs-9{position:relative;min-height:1px;padding-left:15px;padding-right:15px}.col-xs-1,.col-xs-10,.col-xs-11,.col-xs-12,.col-xs-2,.col-xs-3,.col-xs-4,.col-xs-5,.col-xs-6,.col-xs-7,.col-xs-8,.col-xs-9{float:left}.col-xs-12{width:100%}.col-xs-11{width:91.66666667%}.col-xs-10{width:83.33333333%}.col-xs-9{width:75%}.col-xs-8{width:66.66666667%}.col-xs-7{width:58.33333333%}.col-xs-6{width:50%}.col-xs-5{width:41.66666667%}.col-xs-4{width:33.33333333%}.col-xs-3{width:25%}.col-xs-2{width:16.66666667%}.col-xs-1{width:8.33333333%}@media (min-width:768px){.col-sm-1,.col-sm-10,.col-sm-11,.col-sm-12,.col-sm-2,.col-sm-3,.col-sm-4,.col-sm-5,.col-sm-6,.col-sm-7,.col-sm-8,.col-sm-9{float:left}.col-sm-12{width:100%}.col-sm-11{width:91.66666667%}.col-sm-10{width:83.33333333%}.col-sm-9{width:75%}.col-sm-8{width:66.66666667%}.col-sm-7{width:58.33333333%}.col-sm-6{width:50%}.col-sm-5{width:41.66666667%}.col-sm-4{width:33.33333333%}.col-sm-3{width:25%}.col-sm-2{width:16.66666667%}.col-sm-1{width:8.33333333%}}@media (min-width:992px){.col-md-1,.col-md-10,.col-md-11,.col-md-12,.col-md-2,.col-md-3,.col-md-4,.col-md-5,.col-md-6,.col-md-7,.col-md-8,.col-md-9{float:left}.col-md-12{width:100%}.col-md-11{width:91.66666667%}.col-md-10{width:83.33333333%}.col-md-9{width:75%}.col-md-8{width:66.66666667%}.col-md-7{width:58.33333333%}.col-md-6{width:50%}.col-md-5{width:41.66666667%}.col-md-4{width:33.33333333%}.col-md-3{width:25%}.col-md-2{width:16.66666667%}.col-md-1{width:8.33333333%}}.clearfix:after,.clearfix:before,.container-fluid:after,.container-fluid:before,.container:after,.container:before,.row:after,.row:before{content:" ";display:table;clear:both}
+.mainwrap{ width: 100%; }
+.mainwrap_w{ width: 1440px; margin-right:auto;margin-left:auto; }@media (max-width:992px){.mainwrap_w{width:100%;}}
+
+
+/*分页*/
+.pagelink {clear:both;font-size:12px;text-align:center;height:38px;overflow:hidden; font-size:12px;}
+.pagelink a,div.pagelink span{padding:6px 7px 6px;height:32px;color:#4c4c4c;border:1px solid #ddd; line-height:32px; text-decoration:none; margin:0 2px;}
+.pagelink a:hover{color:#690;text-decoration:none;padding:6px 7px 5px;border-bottom:2px solid #690}
+.pagelink .current{color:#F63;padding:6px 7px 5px;height:26px;border:1px solid #ddd;border-bottom:2px solid #F63;font-weight:bold}
+
+
+.fanye{ color:#ff6c00;line-height:20px;margin:20px 0px 20px 0px;}
+.fanye div {background-color:#f6f6f6; padding:3px 3px 3px 6px; margin-top:5px;}
+.fanye a { color:#000;}
+.fanye a:hover{text-decoration:underline;}

@@ -1,0 +1,41 @@
+/*reset*/
+body,div,h1,h2,h3,h4,h5,h6,hr,p,blockquote,dl,dt,dd,ul,ol,li,pre,form,fieldset,legend,button,input,textarea,select,th,td,article,aside,audio,canvas,caption,details,figure,footer,header,hgroup,iframe,mark,menu,nav,object,section,summary,::before,::after{margin:0;padding: 0; font-weight: normal;-webkit-box-sizing: border-box;box-sizing: border-box;}
+article,aside,details,figcaption,figure,footer,header,hgroup,main,nav,section,summary{display:block;}
+a,button,input,textarea,select{background: none; -webkit-tap-highlight-color:rgba(255,0,0,0); outline:none; -webkit-appearance:none;}
+html{font-size: 6.25em;-webkit-text-size-adjust:100%;}
+body{font-family:helvetica;color: #000000;font-size: 0.24rem;font-size: 0.24rem;}
+a{color: #555555;}
+a:hover{}
+em{font-style:normal}
+h1,h2,h3,h4,h5,h6{font-weight: normal;}
+li{list-style:none}
+a{text-decoration:none;color: #808080;}
+img{border:none; vertical-align:top;}
+table{border-collapse:collapse; border-spacing: 0;}
+textarea{ resize:none; overflow:auto;}
+html,body{width: 100%;height: 100%;}
+.clearfix::before,.clearfix::after{content: '';height: 0;line-height: 0;display: block;visibility: hidden;clear: both;}
+.fl,.lefter{float:left;}
+.fr,.righter{float:right;}
+em,i{font-style: normal;}
+html,body{height: 100%;}
+.imgResponsive{  display: block;max-width: 100%;height: auto;}
+.container{width: 100%;max-width: 640px;min-width: 300px;margin: 0 auto;height: 100%;}
+.tc{text-align: center;}
+.tl{text-align: left;}
+.underline{text-decoration: underline;}
+.cor1,a.cor1{color: #08af51!important;}
+.bg{background: #f2f2f2;}
+.icon{display: inline-block;background: url(../images/icon.png) no-repeat;vertical-align: middle;background-size: 3.51rem auto;}
+.ic1{background-position: 0 0;width:0.37rem ;height: 0.52rem;}
+.ic2{background-position: -0.49rem 0;width:0.4rem ;height: 0.52rem;}
+.ic3{background-position: -1.04rem 0;width:0.35rem ;height: 0.52rem;}
+.ic4{background-position: -1.54rem 0;width:0.41rem ;height: 0.52rem;}
+.login{width: 5.3rem;margin: 0 auto;}
+.login .imgResponsive{width: 1rem;height: 1rem;margin: 0 auto 0.8rem;padding-top: 1.28rem;}
+.login li{position: relative;margin-bottom: 0.3rem;}
+.login .lb{position: absolute;left: 0.1rem;top:0.1rem;}
+.login .inptxt{border: none;border-bottom: 1px solid #d2d2d2;height: 0.78rem;padding: 0.05rem 0.1rem 0.05rem 0.74rem;font-size: 0.24rem;}
+.login .inptxt.inptxt2{padding: 0.05rem 1.27rem 0.05rem 0.74rem;}
+.login .btnSend{border: none;width: 1.24rem;color: #ff0303;position: absolute;right: 0;bottom: 0.22rem;font-size: 0.24rem;}
+.login .btnReg{width: 100%;line-height: 0.8rem;background: -webkit-linear-gradient(left,#ff0008,#e82031);background: linear-gradient(left,#ff5800,#ff8d01);color: #fff;border: none;font-size: 0.3rem;border-radius: 0.3rem;}

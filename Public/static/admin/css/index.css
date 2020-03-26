@@ -1,0 +1,74 @@
+/*CSS reset*/
+h1,h2,h3,h4,h5,h6,p,div,ul,ol,input,img,form,table,td,button,textarea{margin:0;padding:0;border:0;}
+input,select,textarea{outline:none;}
+ol,ul{list-style: none;}
+a{text-decoration: none; color: #333;}
+a:hover{color:#367fa9; text-decoration: none !important;}
+a:focus{ outline: none !important;  text-decoration: none !important;  }
+table, table th, table td{border: 0 none; border-collapse: collapse;}
+.float_l{float:left;}
+.float_r{ float:right;}
+.clearfix:after{content:"";display:block;clear:both;}
+.clearfix{zoom:1;}
+.clear{clear:both; height:0px; font-size:0px; line-height:0px;}
+
+
+
+/****************************************************  S 后台主页    *******************************************/
+.cwrapper{background: #f9f9f9;}
+.c_totalmember{margin-top: 10px;}
+.c_lan1{line-height: 57px;}
+.c_lan1 h3{line-height: 57px;color: #1c2e32;font-size: 17px;font-weight: bold;}
+.c_totalmemberbox{box-shadow: 0 5px 10px rgba(217, 222, 233, 0.6);background: #fff;}
+.c_totalmember_item{display: block;float: left;width: 20%;height: 107px;}
+.c_totalmember_item dl{margin-top: 21px;margin-bottom: 0;}
+.c_totalmember_item dl dt{text-align: right;}
+.c_totalmember_item dl dt img{width: 64px;height: 64px;margin-right: 11px;margin-top: -30px;}
+.c_totalmember_item dl dt,.c_totalmember_item dl dd{display: inline-block;height: 64px;width: 49%;}
+.c_totalmember_item dl dd{padding-left: 11px;}
+.c_totalmember_item dl dd p{height: 26px;line-height: 26px;color: #4d4d4d;font-size: 14px;}
+.c_totalmember_item dl dd span{line-height: 37px;color: #4d4d4d;font-size: 23px;}
+.c_totalmember_item dl dd span small{font-size: 12px;color: #cacccf;}
+.c_xianright{background: url(../images/c_xian1.png) right center no-repeat;}
+
+
+.c_databox_item1{margin-top: 10px;}
+.c_databox_item1con{box-shadow: 0 5px 10px rgba(217, 222, 233, 0.6); padding-top: 35px;padding-bottom: 35px;width: 100%;background:#fff url(../images/c_xian2.png) center no-repeat;}
+.c_databox_item1con ul{margin: 0;padding: 0;}
+.c_databox_item1con ul li{margin-left: 16%;float: left;margin-bottom: 3px;width: 33.7%;}
+.c_databox_item1con ul li p{height: 33px;line-height: 33px;font-size: 23px;}
+.c_databox_item1con ul li span{display: block;height: 29px;line-height: 29px;color: #999999;font-size: 12px;position: relative;}
+.c_databox_item1con ul li span:before{content: '';width: 6px;height: 6px;display: block;border-radius: 50%;position: absolute;left: -12px;top: 12px;}
+.c_databox_item1_color1 p{color: #5bb021;}
+.c_databox_item1_color1  span:before{background: #5bb021;}
+
+.c_databox_item1_color2 p{color: #ff9900;}
+.c_databox_item1_color2  span:before{background: #ff9900;}
+
+.c_databox_item1_color3 p{color: #ff6666;}
+.c_databox_item1_color3  span:before{background: #ff6666;}
+
+.c_databox_item1_color4 p{color: #6666ff;}
+.c_databox_item1_color4 span:before{background: #6666ff;}
+
+
+.c_databoxdetail{padding-bottom: 50px;}
+.c_lan2{margin-top: 13px;}
+.c_lan2 h3{height: 57px;line-height: 57px;color: #1c2e32;font-size: 17px;font-weight: bold;}
+.c_lan2  a{color: #a5a5a5;font-size: 12px;margin-left: 24px;font-weight: normal;position: relative;padding-right: 19px;}
+.c_lan2  a:before{content: '';width: 14px;height: 2px; position: absolute;right: 0;top: 8px;}
+.c_lan2 .cat_color1:before{background: #5395f1;}
+.c_lan2 .cat_color2:before{background: #fdba64;}
+.linechart{box-shadow: 0 5px 10px rgba(217, 222, 233, 0.6);} 
+.linechart img{max-width: 100%;}
+
+.cdetailbox{background: #6ae1c4;padding-left: 26px;padding-right: 26px;margin-top: 70px;padding-bottom: 50px;}
+.cdetail_title{line-height: 39px;color: #fff;font-size: 14px;padding-top: 45px;}
+.cdetail_price{font-size: 40px;font-family: Arial;color: #fff;}
+.cdetail_list{margin-top: 15px;}
+.cdetail_list ul{margin: 0;padding: 0;}
+.cdetail_list ul li{margin-right: 20px;float: left; padding-left: 37px;background: url(../images/c_icon6.png) left 10px no-repeat;height: 46px;}
+.cdetail_list ul li p{height: 23px;line-height: 23px;color: #fff;font-size: 14px;}
+.cdetail_list ul li span{font-family: Arial;font-size: 16px;color: #fff;}
+
+/****************************************************  E 后台主页    *******************************************/

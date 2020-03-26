@@ -1,0 +1,131 @@
+*{margin: 0;padding: 0;}
+ul{list-style: none;}
+.qqicon{display:block;background: url(../images/qqicon.png) no-repeat;}
+.qqic1{background-position:0 -72px ;width:25px;height:26px;}
+.qqic2{background-position: 0 0;width: 32px;height:32px;}
+.qqic3{background-position: 0 -132px;width: 31px;height:32px;}
+.qqic4{background-position: 0 -333px;width: 26px;height: 27px;}
+.qqic5{background-position: 0 -303px;width: 26px;height: 27px;}
+.qqic6{background-position: 0 -236px;width: 26px;height: 27px;}
+.qqic7{background-position: 0 -375px;width:26px;height:24px;}
+.qqic8{background-position: 0 -434px;width:18px;height:22px;}
+.qqic9{background-position: 0 -496px;width:21px;height:19px;}
+.qqic10{background-position: 0 -521px;width:21px;height:19px;}
+.qqic11{background-position: 0 -544px;width:21px;height:17px;}
+.qqic12{background-position: 0 -563px;width:22px;height:24px;}
+.qqic13{background-position: 0 -614px;width:18px;height:20px;}
+.qqic14{background-position: -37px 0;width:27px;height:27px;}
+.qqic15{background-position: -37px -34px;width:30px;height:22px;}
+.qqic16{background-position: -37px -64px;width:30px;height:25px;}
+.qqic17{background-position: -37px -104px;width:39px;height:25px;}
+.qqic18{background-position: -35px -148px;width:48px;height:49px;}
+.qqic19{background-position: -35px -208px;width:48px;height:49px;}
+.qqic20{background-position: -35px -262px;width:48px;height:49px;}
+.qq1{position: fixed;right:0;top:100px;}
+.qq1 li{margin-bottom: 1px;}
+.qq1 a{display: block;width:60px;padding:10px 0 12px;background:#aaaaaa ;font-size: 12px;text-align: center;color:#fff;text-decoration: none;}
+.qq1 .qqicon{margin:0 auto 4px;}
+.qq1 a:hover{background:#f64141 ;}
+.qq1 a:hover .qqic2{background-position:0 -36px ;}
+.qq1 a:hover .qqic1{background-position: 0 -102px;}
+
+.qq2{position: fixed;top:100px;}
+.qq2 .side{position: absolute;left:-39px;height:101px;width:19px;padding:26px 10px 0;background: #f9a644;font-size: 18px;color: #fff;text-shadow:0 1px 2px #9c5400;border-bottom-left-radius:15px ;border-top-left-radius: 15px;top: 50%;
+margin-top: -68px;}
+.qq2 .side .del2{position: absolute;top:4px;right:0;font-size: 15px;text-decoration: none;font-weight: bold;color: #fff;text-shadow:0 1px 2px #9c5400;}
+.qq2 .sidecon{background: #f9a644;border-radius: 15px;padding:5px;}
+.qq2 .sidecon .schd{position: relative;color: #fff;padding-left: 16px;}
+.qq2 .sidecon .schd h6{font-size: 18px;}
+.qq2 .sidecon .schd p{font-size: 12px;margin:4px 0 5px;}
+.qq2 .sidecon .schd .del{position:absolute;background: url(../images/qqicon.png) 0 -209px no-repeat;width: 21px;height: 21px;right: 0;top:4px;}
+
+.qq2 .sidecon .scbd{background: #fff;padding:14px 10px 20px;border-radius: 15px;}
+.qq2 .sidecon .scbd li{border-bottom: 1px dashed #dcdcdc;height:42px;line-height: 42px;padding:0 20px;}
+.qq2 .sidecon .scbd a{font-size: 14px;color: #ababab;text-decoration: none;}
+.qq2 .sidecon .scbd a:hover{color: #f9a644;}
+.qq2 .sidecon .scbd a:hover .qqicon{background-position: 0 -167px;}
+.qq2 .sidecon .scbd .qqicon{vertical-align: -10px;display: inline-block;margin-right: 12px;}
+
+.qq3{position: fixed;right:0;top:100px;}
+.qq3 li{margin-bottom: 10px;}
+.qq3 a{display: block;width:66px;padding:10px 0 10px;background:#fff ;font-size: 12px;text-align: center;color:#fff;text-decoration: none;border-radius: 6px;border:1px solid #fff}
+.qq3 .qqicon{margin:0 auto 4px;}
+.qq3 a:hover{background:#fff ;color: #fff;}
+.qq3 a:hover .qqicon{background-position: 0 -274px;}
+.qq3 a:hover .qqic7{background-position: 0 -403px;}
+.qq3 a:hover .qqic8{background-position: 0 -466px;}
+.qq3 .anc1{border-color: #ff952d;color:#ff952d ;}
+.qq3 .anc2{border-color: #fc6666;color:#fc6666 ;}
+.qq3 .anc3{border-color: #9752ff;color:#9752ff ;}
+.qq3 .anc4{border-color: #54c845;color:#54c845 ;}
+.qq3 .anc5{border-color: #38ceff;color:#38ceff ;}
+.qq3 .anc1:hover{background:#ff952d ;}
+.qq3 .anc2:hover{background:#fc6666 ;}
+.qq3 .anc3:hover{background:#9752ff ;}
+.qq3 .anc4:hover{background:#54c845 ;}
+.qq3 .anc5:hover{background:#38ceff ;}
+
+.qq4{position: fixed;left: 0;top:100px;border: 1px solid #a9a9a9;background: #fff;}
+.qq4 .del{float: right;background: url(../images/qqicon.png) 0 -594px no-repeat;width:13px;height:13px;margin: 4px 4px 10px;}
+.qq4 .qqi4list{padding:0 15px;clear: both;}
+.qq4 .qqi4list li{margin-bottom: 10px;overflow: hidden;zoom: 1;}
+.qq4 .qqi4list li.wek{border:1px solid #a9a9a9;background:#fff;padding:6px;}
+.qq4 .qqi4list li.wek img{width:122px ;height:122px;}
+.qq4 .qqi4list .qqicon{float:left;margin: 8px 0 0 0;}
+.qq4 .qqi4list a{float:left;display:block;font-size: 14px;color: #a9a9a9;width:106px;text-align:center;line-height: 30px;border:1px solid #a9a9a9;margin-left: 10px;text-decoration: none;}
+.qq4 .qqi4list a:hover{background: #b51f24;border-color: #b51f24;color: #fff;}
+.qq4 .phone{background: #b51f24;color:#fff;line-height: 38px;font-size: 18px;}
+.qq4 .phone .qqic12{display: inline-block;vertical-align:middle;margin:0 4px 0 12px;}
+
+.qq5{position: fixed;top:100px;font-size: 14px;}
+.qq5 .side{padding:12px 2px 6px 6px;width:18px;background:#1692d2;color: #fff;border-top-left-radius: 6px;border-bottom-left-radius: 6px;position: absolute;top:50%;margin-top:-44px;left: -24px;}
+.qq5 .side em{display:block;font-style: normal;}
+.qq5 .sidecon{background: #1692d2;padding:4px;background: #1692d2;border-radius: 4px;}
+.qq5 .sdl{padding:6px 16px 0 6px;background: #fff;}
+.qq5 .sdl dt{color:#1692d2;line-height: 24px;border-bottom: 1px solid #8ac8e8;}
+.qq5 .sdl dd{border-bottom: 1px solid #dcdcdc;line-height: 40px;}
+.qq5 .sdl dd.last{border: 0;}
+.qq5 .sdl a{color:#0dabd9;text-decoration: none;}
+.qq5 .sdl .qqicon{display: inline-block;vertical-align: -5px;margin-right: 6px;}
+.qq5 .dlft{color: #fff;margin-top: 12px;text-align: center;}
+.qq5 .dlft p{margin-bottom: 10px;}
+
+.qq6,.qq7{position:fixed;right: 0;top:233px;}
+.qq6 .qqicon{display:inline-block;}
+.qq6 .qqlist{}
+.qq6 .qqlist li,.qq7 .qqlist li{margin-bottom:6px;text-align:center;}
+.qq6 .qqlist a{display: block;height: 73px;width: 73px;background: #5e5e5e; }
+.qq6 .qqlist a:hover{text-decoration:none;}
+.qq6 .qqlist .qqicon{margin: 16px 0 8px;}
+.qq6 .qqlist a#top .qqicon{margin: 22px 0 0;}
+.qq6 .qqlist a:hover{background:#227700;}
+.qq6 .qqlist span{display: block;font-size: 14px;color: #fff;}
+
+.qq7 .qqlist .qqic18:hover{background-position: -35px -320px;}
+.qq7 .qqlist .qqic19:hover{background-position: -35px -380px;}
+.qq7 .qqlist .qqic20:hover{background-position: -35px -434px;}
+#qq8 .siderNav{position: fixed;right: 0;top:200px}
+#qq8 .siderNav li{margin-bottom: 10px;position: relative;height: 49px;}
+#qq8 .siderNav a{display: block;color: #fff;}	
+#qq8 .siderNav .show{width: 47px;height: 49px;}
+#qq8 .siderNav .hide,.siderNav .hide2{position: absolute;overflow: hidden;right:-161px;top:0;z-index: 4;}
+#qq8 .siderNav .hide2{display: none;right: 0;}	
+#qq8 .siderNav .hide img.fl{float: left;width: 49px;height: 49px;}
+#qq8 .siderNav .hide p{width: 112px; background-color: #A7D2A9; height: 47px;padding-left: 47px;
+border: 1px solid #8BC48D; text-align: center; line-height: 47px;}
+#qq8 .siderNav .hide p.p2{background: #EC9890;border-color: #E6776C;}
+#qq8 .siderNav .wk{position: absolute;left: -114px;top:-20px;display: none;width:100px;height: 100px;}
+#qq9 .info li{margin-bottom:3px;text-align:center;position: relative;}
+#qq9 .info a{display: block;height: 80px;width: 80px;background: #009beb;overflow: hidden;text-decoration: none;}
+#qq9 .info a:hover{text-decoration: none;}
+
+#qq9 .info span{display: block;font-size: 14px;color: #fff;}
+#qq9 .info .wk{position: absolute;right:90px ;width:140px ;height: 140px;top:0;display: none;}
+#qq9 .info .tel{position: absolute;right:90px ;width:140px ;height: 140px;top:0;display: none;}
+#qq9{position:fixed;right: 0;top:233px;z-index: 999;}
+.zicon{background:url(../images/zicon.png) no-repeat;display: block;margin:10px auto ;}
+.zicon.ic1{background-position: 0 0;width: 30px;height: 30px;}
+.zicon.ic2{background-position: 0 -52px;width: 31px;height:33px;}
+.zicon.ic3{background-position: 0 -103px;width: 29px;height:24px;margin-top: 20px;}
+.zicon.ic4{background-position: 0 -152px;width: 30px;height:35px;}
+.zicon.ic5{background-position: 0 -211px;width: 30px;height:22px;margin-top: 20px;}

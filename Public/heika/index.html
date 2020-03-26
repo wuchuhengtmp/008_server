@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <META HTTP-EQUIV="pragma" CONTENT="no-cache">
+	<META HTTP-EQUIV="Cache-Control" CONTENT="no-cache, must-revalidate">
+	<META HTTP-EQUIV="expires" CONTENT="0">
+    <script type="text/javascript" src="./js/swiper.min.js"></script>
+    <script type="text/javascript" src="./js/jquery-3.3.1.min.js"></script>
+    <!-- <script type="text/javascript" src="./js/rem.js"></script> -->
+    <link rel="stylesheet" href="./css/common.css">
+    <link rel="stylesheet" href="./css/swiper.min.css">
+    <link rel="stylesheet" href="./css/privilege.css">
+    <style>
+        .noimg {
+            width: 100vw;
+            height: 1px;
+        }
+
+        .swiper-pagination-bullet {
+            width: 1.5vw;
+            height: 1.5vw;
+            background: #fff;
+        }
+    </style>
+    <title>Document</title>
+</head>
+
+<body>
+    <div id="container">
+        <!-- <img class="noimg" src="./image/none_img.jpg" alt=""> -->
+        <div class="swiper-container">
+            <div class="swiper-wrapper">
+                <div class="swiper-slide" v-for="(item, index) in banner" :key="index" @click.stop="toUrl(item.href)">
+                    <img class="banners" :src="item.img">
+                </div>
+            </div>
+            <div class="swiper-pagination">asdsad</div>
+            <!--分页器。如果放置在swiper-container外面，需要自定义样式。-->
+        </div>
+        <div class="new_main">
+            <div class="new_title">
+                <span class="new_title1">新特权</span>
+                <span class="new_title2"> | NEW</span>
+            </div>
+            <div class="new_list rows" style="flex-wrap: wrap">
+                <div class="new_item column" v-for="(item, index) in tequan" style="width: 25%" :key="index"
+                    @click.stop="toUrl(item.url)">
+                    <img class="new_img" :src="item.logo" alt="">
+                    <span class="new_name">{{item.title}}</span>
+                    <span class="new_activity">{{item.sub_title}}</span>
+                </div>
+            </div>
+        </div>
+        <!-- <img class="noimg" src="./image/none_img.jpg" alt=""> -->
+        <div class="cate_list rows" id="menu">
+            <div :class="{'cate_item':true,'cate_titlesel':index==0}" :id='index+1' v-for="(item, index) in catlist"
+                :key="index" @click="jump(index+1)">
+                <div class="actived column">
+                    <span class="cate_title ">{{item.category_name}}</span>
+                    <span class="cate_notice">{{item.desc}}</span>
+                </div>
+            </div>
+        </div>
+        <div class="cate_main">
+
+            <div class="cate_div">
+                <div class="cate_goods" :id="'item'+(index+1)" v-for="(item, index) in catlist" :key="index">
+                    <span class="cate_name">{{item.category_name}}</span>
+                    <div class="goods_list rows">
+
+                        <div class="goods_item column" v-for="(val, i) in item.goods" :key="i" @click="toUrl(val.url)">
+                            <img class="new_img" :src="val.logo" alt="">
+                            <span class="new_name">{{val.title}}</span>
+                            <span class="new_activity">{{val.sub_title}}</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+</body>
+<script>
+
+</script>
+<script type="text/javascript" src="js/vue.min.js"></script>
+<script type="text/javascript" src="js/index1.js"></script>
+
+</html>

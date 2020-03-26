@@ -1,0 +1,13 @@
+@CHARSET "UTF-8";
+ul{margin:0;padding:0;list-style-type:none}
+
+.imgContainer{margin:20px auto;}
+.imgContainer ul{}
+.imgContainer li{float:left;width:150px;margin: 0 6px 28px 6px;border: 1px solid #888;}
+.imgContainer a{display: block;border:1px solid #eeeeee;}
+.imgContainer li img{width: 100%;height:auto;max-height:100%}
+.imgContainer li span.imgbox{display: table-cell;width:150px;height: 115px;overflow: hidden;vertical-align: middle;}
+.imgContainer li.hover span.imgbox{padding:12px 0;height:91px;}
+.imgContainer li.hover img{max-height:91px;}
+.imgContainer .del{display: block;text-align: center;font-size:14px;color:#000;line-height: 24px;border-top:1px solid #eee;}
+.imgContainer .del em{font-size: 20px;color: #ff0000;margin-right: 10px;}
